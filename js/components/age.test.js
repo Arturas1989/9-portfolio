@@ -6,6 +6,6 @@ describe('Vailduojamos tinkamo tipo reiksmes', () => {
     });
 
     test('jei 2010, tai palauk', () => {
-        expect(age(2010)).toBe('palauk');
+        expect(age(2010)).toBe('Palauk');
     });
 });
